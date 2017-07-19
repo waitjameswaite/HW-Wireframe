@@ -3,9 +3,84 @@ body {
 	margin: 0 auto;
 	background: #777;
 	color: #ebebeb;
+	text-align: center;
+	display: block;
 }
 
 header {
 	padding: 12pt;
 	margin: 6pt;
+	background: #ebebeb;
+	color: #777;
+}
+
+nav {
+	background: #ebebeb;
+	color: #777;
+	padding: 12pt;
+	margin: 6pt;
+}
+
+section {
+	background: #ebebeb;
+	color: #777;
+	width: 495px;
+	height: 250px;
+	float: left;
+	padding: 12pt;
+	margin: 6pt;
+}
+
+article {
+	background: #777;
+	color: #ebebeb;
+	position: relative;
+	line-height: 12pt;
+	padding: 12pt;
+	margin: 6pt;
+}
+
+h1 {
+	background: #ebebeb;
+	color: #777;
+	position: relative;
+	line-height: 12pt;
+	padding: 12pt;
+	margin: 6pt;
+}
+
+p {
+	background: #ebebeb;
+	color: #777;
+	position: relative;
+	line-height: 12pt;
+	padding: 12pt;
+	margin: 6pt;
+}
+
+aside {
+	background: #ebebeb;
+	color: #777;
+	float: right;
+	width: 368px;
+	height: 250px;
+	line-height: 12pt;
+	padding: 12pt;
+	margin: 6pt;
+	overflow: auto;
+}
+
+footer {
+	background: #ebebeb;
+	color: #777;
+	padding: 12pt;
+	margin: 6pt;
+	float: left;
+	width: 910px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
 }
