@@ -1,0 +1,11 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	background: #777;
+	color: #ebebeb;
+}
+
+header {
+	padding: 12pt;
+	margin: 6pt;
+}
